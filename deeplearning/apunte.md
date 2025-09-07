@@ -20,3 +20,16 @@ En el proceso de entrenamiento, se utiliza un batch que contiene un conjunto de 
 
 ## Tarea
 La tarea futura consistirá en crear una red neuronal y probar diferentes combinaciones de hiperparámetros para optimizar su funcionamiento y rendimiento.
+# 2025-09-06
+
+## Descripción
+Este archivo README contiene apuntes de clase sobre el tema de hiperparámetros en redes neuronales.
+
+## Contenido
+- Para Metro es lo que no podemos modificar, se guarda en el aprendizaje.
+- El seco de cuenta mientras se prenda y parámetro les ve que lo podemos modificar.
+- Es una variable que puede tomar por sentado una parte del entrenamiento y la usa para entrenar.
+- Los hiperparámetros de nuestra red pueden ser la cantidad de capas, el learning de la función de activación, el batch size y las épocas.
+- Lo que queremos hacer es tener un objetivo, es hacer que la red aprenda y que cuente el proceso de nuestra data.
+- El problema es solo recursos, entonces tenemos un batch que tiene un conjunto de secuencias y cada vez que te pase en observaciones actualizará los datos correspondientes a los pesos.
+- Sabiendo esto, la tarea de día de mañana será crear una red neuronal y en base a eso ir probando cada uno de los hiperparámetros.
