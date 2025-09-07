@@ -17,11 +17,13 @@ jobs:
 
       - name: Convertir Markdown a HTML
         run: |
-          mkdir -p site
           for md in $(find . -type f -name "*.md"); do
             echo "📢 Publicando $md ..."
-            pandoc "$md" -f markdown -t html -s -o "site/${md%.md}.html"
+            out="site/${md%.md}.html"
+            mkdir -p "$(dirname "$out")"   # Crear subdirectorios necesarios
+            pandoc "$md" -f markdown -t html -s -o "$out"
           done
+
 
       - name: Configurar Git
         run: |
