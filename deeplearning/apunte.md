@@ -50,3 +50,18 @@ En resumen, los hiperparámetros son variables importantes en el proceso de entr
 
 ## Conclusiones
 Es fundamental comprender el papel de los hiperparámetros y cómo afectan el aprendizaje de una red neuronal para poder optimizar su funcionamiento y obtener resultados satisfactorios.
+# 2025-09-06
+
+## Descripción
+Este documento es un archivo README que contiene apuntes de clase sobre los hiperparámetros en redes neuronales y su influencia en el aprendizaje automático.
+
+## Contenido
+
+### Hiperparámetros en Redes Neuronales
+Para Metro es lo que no podemos modificar, se guarda en el aprendizaje, el seco de cuenta mientras se prende y parámetro les ve que lo podemos modificar. Es una variable que puede tomar por sentado una parte del entrenamiento y la usa para entrenar. Los hiperparámetros de nuestra red pueden ser la cantidad de capas, el learning de la función de activación, el batch size y las épocas.
+
+### Objetivo
+Lo que queremos hacer es tener un objetivo, es hacer que la red aprenda y que cuente el proceso de nuestra data. El problema es solo recursos, entonces tenemos un batch que tiene un conjunto de setorginas y cada vez que te pase en observaciones actualizará los datos correspondientes a los pesos.
+
+### Tarea
+Sabiendo esto, la tarea de día de mañana será crear una red neuronal y en base a eso ir probando cada uno de los hiperparámetros.
