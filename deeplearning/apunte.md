@@ -33,3 +33,20 @@ Este archivo README contiene apuntes de clase sobre el tema de hiperparámetros 
 - Lo que queremos hacer es tener un objetivo, es hacer que la red aprenda y que cuente el proceso de nuestra data.
 - El problema es solo recursos, entonces tenemos un batch que tiene un conjunto de secuencias y cada vez que te pase en observaciones actualizará los datos correspondientes a los pesos.
 - Sabiendo esto, la tarea de día de mañana será crear una red neuronal y en base a eso ir probando cada uno de los hiperparámetros.
+# 2025-09-06
+
+## Introducción
+Este documento contiene apuntes de clase relacionados con el concepto de hiperparámetros en redes neuronales.
+
+## Contenido
+Para Metro es lo que no podemos modificar, se guarda en el aprendizaje, el seco de cuenta mientras se prenda y perparámetro les ve que lo podemos modificar. Es una variable que puede tomar por sentado una parte del entrenamiento y la usa para entrenar. Los hiperparámetros de nuestra red pueden ser la cantidad de capas, el learning de la función de activación, el batch size y las épocas. 
+
+Los otros lo que queremos hacer es tener un objetivo, es hacer que la red aprende y que cuenta el proceso de nuestra data. El problema es solo recursos, entonces tenemos un batch que tiene un conjunto de setorginas y cada vez que te pase en observaciones actualizará los datos correspondientes a los pesos. 
+
+Sabiendo esto, la tarea de día de mañana será crear una red neuronal y en base a eso ir probando cada uno de los hiperparámetros.
+
+## Resultado
+En resumen, los hiperparámetros son variables importantes en el proceso de entrenamiento de una red neuronal y su correcta elección puede influir en el rendimiento y eficacia del modelo.
+
+## Conclusiones
+Es fundamental comprender el papel de los hiperparámetros y cómo afectan el aprendizaje de una red neuronal para poder optimizar su funcionamiento y obtener resultados satisfactorios.
