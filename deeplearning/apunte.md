@@ -65,3 +65,13 @@ Lo que queremos hacer es tener un objetivo, es hacer que la red aprenda y que cu
 
 ### Tarea
 Sabiendo esto, la tarea de día de mañana será crear una red neuronal y en base a eso ir probando cada uno de los hiperparámetros.
+# 2025-09-06
+
+## Introducción
+En este documento se presentan apuntes de clase sobre conceptos relacionados con el aprendizaje automático y las redes neuronales.
+
+## Contenido
+Para Metro es lo que no podemos modificar, se guarda en el aprendizaje, el seco de cuenta mientras se prenda y perparámetro les ve que lo podemos modificar. Es una variable que puede tomar por sentado una parte del entrenamiento y la usa para entrenar. Los hiperparámetros de nuestra red pueden ser la cantidad de capas, el learning de la función de activación, el batch size y las épocas. 
+
+## Objetivo
+Lo que queremos hacer es tener un objetivo, es hacer que la red aprenda y que cuente el proceso de nuestra data. El problema es solo recursos, entonces tenemos un batch que tiene un conjunto de setorginas y cada vez que te pase en observaciones actualizará los datos correspondientes a los pesos. Sabiendo esto, la tarea de día de mañana será crear una red neuronal y en base a eso ir probando cada uno de los hiperparámetros.
